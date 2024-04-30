@@ -1,0 +1,36 @@
+Sprint Goal:
+  The goal of this first sprint is to have a minimum viable product. It will allow us to have all the basic functionality we had for our second project without some design aspects. 
+  It will also be a planning sprint for what we may need in future sprints, such as functionality we did not initially plan for.
+
+Sprint Backlog:
+  -Brainstorming
+  -Planning
+  -Sketching
+  -Menu navigation
+  -Customer interface design
+  -Create Waiter landing page
+  -Add the menu item tab for the waiter page
+  -Add the drink tab for the waiter page
+  -Add the ability to remove menu items from the menu on the manager page
+  -Add the ability to track the sales of items
+  -Create Waiter button
+  -Add the add-on tab for the waiter page
+  -Add the clear order button
+  -Add an option to change the price of a menu item on the manager page
+  -Search functionality
+  -Cart management
+  -Add the feature to generate reports based on different time scales
+  -Create a feature to track inventory levels of ingredients
+  -Create a manager landing page
+  -Create manager button
+  -Add a box to display the corresponding items from the tabs
+  -Add a box to display selected items in the cart for the waiter page
+  -Add a submit order button on the waiter page
+  -Add the ability to change the stock of an ingredient of a menu item on the manager page
+  -Login authentication
+  -Checkout process design
+  -Create the feature to add alerts when inventory is low
+  -Add the ability to add menu items to the menu on the manager page
+  -Add company logo
+
+  

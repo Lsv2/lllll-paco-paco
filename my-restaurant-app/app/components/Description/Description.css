@@ -1,0 +1,116 @@
+.description {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 4rem 2rem; /* Adjust the margin to control the vertical spacing */
+    padding: 2rem; /* Add padding to adjust the inner spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; /* Add the "gap" property to control the spacing between child elements */
+  }
+
+.description h1{
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 0;
+}
+
+.description p{
+    color: #fff;
+    font-size: rem;
+    padding-bottom: 0;
+}
+
+.first-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.first-box-reverse{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.des-text{
+    width: 45%;
+    color: #fff;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.des-text h2{
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0.5;
+}
+
+.image img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(red, green, blue, 0.19);
+}
+
+.image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .description {
+      margin: 4rem 1rem; /* Adjust the margin for smaller screens */
+      padding: 1rem; /* Adjust the padding for smaller screens */
+    }
+    .first-box {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 2.5rem;
+    }
+    .des-text {
+      width: 100%;
+      padding-right: 0; /* Remove the padding for smaller screens */
+    }
+    .image {
+      width: 100%;
+    }
+  
+    .image img {
+      height: 250px;
+    }
+  }
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity:1;
+  filter:blur(0);
+  transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+  .hidden{
+    transition: none;
+  }
+}
+
+
+

@@ -1,0 +1,16 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    display: flex;
+}
+
+.header {
+    background: linear-gradient(to right, #383a3f 0%,#000000 100%);
+}

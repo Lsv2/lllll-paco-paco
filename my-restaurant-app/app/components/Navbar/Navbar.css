@@ -1,0 +1,52 @@
+/* src/components/Navbar.css */
+.navbar {
+  background-color: #000000af;
+  overflow: hidden;
+  position:fixed;
+  width: 100vw;
+  z-index: 500;
+}
+
+.navlogo {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.navitem {
+  float: left;
+}
+
+.navlink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  background-color: #888686fb;
+  color: black;
+}
+
+.navImage {
+  float: right;
+  list-style-type: none;
+  padding-top: 1.5vh;
+  padding-right: 1.5vw;
+  z-index: 1000;
+}
+
+
